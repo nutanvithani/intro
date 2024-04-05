@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Calls</title>
+  </head>
+  <style>
+    #box img {
+      height: 200px;
+      width: 200px;
+      padding-left: 50px;
+    }
+    #box div {
+      border: 1px solid white;
+      box-shadow: 5px 5px 5px rgb(67, 34, 34);
+      border-radius: 10px;
+      transition: all 0.5s;
+      padding: 10px;
+      margin: 40px;
+    }
+    #box {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 10px;
+      text-align: center;
+    }
+    #box div:hover {
+      background-color: #7a6648;
+    }
+    #box h1 {
+      font-weight: 600;
+    }
+    #box div:hover h1 {
+      color: #8d7d2b;
+    }
+  </style>
+  <body>
+    <div id="box"></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
